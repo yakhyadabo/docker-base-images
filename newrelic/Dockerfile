@@ -18,7 +18,7 @@ RUN curl -sS -o $NEW_RELIC_DIR/newrelic.zip \
 
 RUN chown -R ydabo:ydabo $NEW_RELIC_DIR
 
-COPY entrypoint.sh /var/lib  
+COPY script/entrypoint.sh /var/lib  
 
 WORKDIR $PROJECT_DIR
 
