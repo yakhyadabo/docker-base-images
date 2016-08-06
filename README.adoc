@@ -17,9 +17,12 @@ To build it you can type one of the the commands below :
 - _*make java-image-build*_ to user the default version _*alpine-openjdk-1.8.0*_
  
 
+// Here's an exemple of springboot project where you can find a use case.  
 
 2. *New Relic image*
+
 3. *Maven image*
+
 4. *Maven-Git image*
 
 
