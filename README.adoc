@@ -13,9 +13,14 @@ The Java image is the root image, It's build using _Alpine Linux_ and _OpenJDK_.
 
 To build it you can type one of the the commands below : 
 
-- _*make java-image-build <version>*_
-- _*make java-image-build*_ to user the default version _*alpine-openjdk-1.8.0*_
+ - _*make java-image-build <version>*_
+ - _*make java-image-build*_ to user the default version _*alpine-openjdk-1.8.0*_
  
+
+To publish it you can type one of the the commands below :
+
+ - _*make java-image-push <version>*_
+ - _*make java-image-push*_ to user the default version _*alpine-openjdk-1.8.0*_
 
 // Here's an exemple of springboot project where you can find a use case.  
 
