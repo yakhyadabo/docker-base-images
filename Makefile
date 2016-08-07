@@ -1,4 +1,4 @@
-Dlpine-openjdk-1.8.0OCKER_REPO = yakhyadabo
+DOCKER_REPO = yakhyadabo
 
 ## Commands 
 PUSH = docker push
