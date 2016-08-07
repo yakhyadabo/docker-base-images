@@ -7,7 +7,6 @@ You can edit the Makefile to replace the name of the repo _*yakhyadabo*_ with yo
 
 == How to use them : 
 
-// [start=4]
 1. *Build/Push Java image*
 
 The Java image is the root image, It's build using _Alpine Linux_ and _OpenJDK_. The other images are build on top of it.
@@ -25,6 +24,7 @@ To publish it you can type one of the the commands below :
 
 // Here's an exemple of springboot project where you can find a use case.  
 
+[start=2]
 2. *New Relic image*
 
 3. *Maven image*
