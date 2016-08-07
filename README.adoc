@@ -5,8 +5,9 @@ This project contains few Dockerfiles of  *Git*, *Maven*, *Java* and *New Relic*
 
 You can edit the Makefile to replace the name of the repo _*yakhyadabo*_ with your own docker repo. 
 
-= How to use them : 
+== How to use them : 
 
+// [start=4]
 1. *Build/Push Java image*
 
 The Java image is the root image, It's build using _Alpine Linux_ and _OpenJDK_. The other images are build on top of it.
